@@ -1,11 +1,16 @@
-# Sisop-5-2025-IT-Template
+# Sisop-5-2025-IT16
 
 ## Kelompok
 
-Nama | NRP
---- | ---
-Amoes Noland | 5027231028
-Rafi' Afnaan Fathurrahman | 5027231040
+# LAPORAN PRAKTIKUM MODUL-2 #
+## Praktikum Sistem Operasi Kelompok IT16 ##
+
+| Nama | NRP       |
+|-------|-----------|
+| Ahmad Syauqi Reza | 5027241085   |
+| Mochammad Atha Tajuddin   | 5027241093  |
+| Tiara Fatimah Azzahra   | 5027241090  |
+---
 
 ## Daftar Isi
 
