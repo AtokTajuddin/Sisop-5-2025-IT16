@@ -2,7 +2,7 @@
 
 ## Kelompok
 
-# LAPORAN PRAKTIKUM MODUL-2 #
+# LAPORAN PRAKTIKUM MODUL-5 #
 ## Praktikum Sistem Operasi Kelompok IT16 ##
 
 | Nama | NRP       |
