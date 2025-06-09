@@ -246,7 +246,16 @@ EorzeOS adalah sistem operasi mini berbasis shell interaktif yang dirancang untu
 
 7. Pada bagian terakhir ini, praktikan diminta untuk melengkapi atau membuat file Makefile yang bertugas meng-compile seluruh komponen dari sistem operasi EorzeOS secara otomatis menggunakan perintah make.
    dimana Makefile adalah file konfigurasi yang digunakan oleh tool make untuk mengotomatisasi proses kompilasi program. Di sini, praktikan diminta membuat sistem build yang menyusun seluruh bagian sistem          operasi ke dalam satu file image (floppy.img).
-   
+
+
+### Dokumentasi
+
+![Tampilan Awal / 0](assets/5.1.png)
+![1, 2, 3](assets/5.2.png)
+![maelstrom / 4](assets/5.3.png)
+![twinadder / 4](assets/5.4.png)
+![immortalflames / 4](assets/5.5.png)
+![5, 6](assets/5.5.png)
    
 
 
