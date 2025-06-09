@@ -255,7 +255,7 @@ EorzeOS adalah sistem operasi mini berbasis shell interaktif yang dirancang untu
 ![maelstrom / 4](assets/5.3.png)
 ![twinadder / 4](assets/5.4.png)
 ![immortalflames / 4](assets/5.5.png)
-![5, 6](assets/5.5.png)
+![5, 6](assets/5.6.png)
    
 
 
