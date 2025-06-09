@@ -38,9 +38,7 @@ Jika input bukan command valid, shell akan mencetak ulang string input.
    - Jika user mengetik gurt, maka shell membalas yo
    Ini adalah mekanisme toggle antara dua kata.
 
-![maelstrom / 4](assets/5.3.png)
-![twinadder / 4](assets/5.4.png)
-![immortalflames / 4](assets/5.5.png)
+
 ## Soal 3
 
 untuk no 3 praktikan diminta untuk membuat sebuah command yang memungkinkan pengguna untuk mengubah nama user pada shell yang digunakan:
@@ -67,6 +65,10 @@ Pada bagian ini praktikan ditugaskan untuk mengimplementasikan fitur perintah gr
    - grandcompany <random> (bukan 3 nama valid)
    Maka shell harus mencetak error message.
 
+
+![maelstrom / 4](assets/5.3.png)
+![twinadder / 4](assets/5.4.png)
+![immortalflames / 4](assets/5.5.png)
 
 ## Soal 5
 
