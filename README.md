@@ -29,7 +29,7 @@
 
 Jika input bukan command valid, shell akan mencetak ulang string input. 
 
-![1, 2, 3](assets/1.png)
+![1](assets/1.png)
 
 ## Soal 2
 
@@ -38,7 +38,7 @@ Jika input bukan command valid, shell akan mencetak ulang string input.
    - Jika user mengetik gurt, maka shell membalas yo
    Ini adalah mekanisme toggle antara dua kata.
 
-![1, 2, 3](assets/2.png)
+![2](assets/2.png)
 
 ## Soal 3
 
@@ -46,7 +46,7 @@ untuk no 3 praktikan diminta untuk membuat sebuah command yang memungkinkan peng
     - user <username>: Mengubah nama shell prompt.
     - user: Mengembalikan ke "user".
 
-![1, 2, 3](assets/3.png)
+![3](assets/3.png)
 
 ## Soal 4
 
@@ -69,9 +69,9 @@ Pada bagian ini praktikan ditugaskan untuk mengimplementasikan fitur perintah gr
    Maka shell harus mencetak error message.
 
 
-![maelstrom / 4](assets/5.3.png)
-![twinadder / 4](assets/5.4.png)
-![immortalflames / 4](assets/5.5.png)
+![maelstrom / 4](assets/5.4.1.png)
+![twinadder / 4](assets/5.4.2.png)
+![immortalflames / 4](assets/5.4.3.png)
 
 ## Soal 5
 
@@ -88,7 +88,9 @@ Pada bagian ini, praktikan diminta untuk mengimplementasikan fitur kalkulator se
    - Ambil nilai x dan y (harus dikonversi dari string ke integer)
    - Lakukan operasi sesuai command
    - Hasilnya akan ditampilkan
-  
+     
+![5](assets/5.png)
+
 ## Soal 6
 
 Pada bagian ini, praktikan diminta untuk mengimplementasikan command spesial yogurt yang akan menghasilkan respon acak dari karakter bernama gurt di dalam shell EorzeOS. Tujuannya adalah agar saat pengguna      mengetikkan yogurt, maka karakter bernama gurt akan membalas dengan salah satu dari tiga kemungkinan respon yang dipilih secara acak.
@@ -102,7 +104,9 @@ Pada bagian ini, praktikan diminta untuk mengimplementasikan command spesial yog
      ```
    3. Menampilkan salah satu dari tiga respon tersebut, dan hasilnya bisa berbeda setiap kali user mengetikkan yogurt — karena dipilih secara acak.
    4. Menunjukkan interaksi antara pengguna (user>) dan karakter virtual gurt> dalam sistem operasi tersebut, mirip seperti easter egg atau fitur rahasia yang menyenangkan.
-      
+
+![6](assets/6.png)
+
 ## Soal 7
 
 Pada bagian terakhir ini, praktikan diminta untuk melengkapi atau membuat file Makefile yang bertugas meng-compile seluruh komponen dari sistem operasi EorzeOS secara otomatis menggunakan perintah make.
