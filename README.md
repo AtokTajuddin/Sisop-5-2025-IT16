@@ -233,6 +233,23 @@ EorzeOS adalah sistem operasi mini berbasis shell interaktif yang dirancang untu
 
 
 6. Pada bagian ini, praktikan diminta untuk mengimplementasikan command spesial yogurt yang akan menghasilkan respon acak dari karakter bernama gurt di dalam shell EorzeOS. Tujuannya adalah agar saat pengguna      mengetikkan yogurt, maka karakter bernama gurt akan membalas dengan salah satu dari tiga kemungkinan respon yang dipilih secara acak.
+   
+   1. Mendeteksi perintah khusus bernama yogurt saat user mengetiknya di terminal shell buatan sendiri.
+   2. Membuat sistem pemilihan secara acak dari tiga respon yang sudah ditentukan, yaitu:
+     ```
+     gurt> yo
+     gurt> ts unami gng </3
+     gurt> sygau
+     ```
+   3. Menampilkan salah satu dari tiga respon tersebut, dan hasilnya bisa berbeda setiap kali user mengetikkan yogurt — karena dipilih secara acak.
+   4. Menunjukkan interaksi antara pengguna (user>) dan karakter virtual gurt> dalam sistem operasi tersebut, mirip seperti easter egg atau fitur rahasia yang menyenangkan.
+
+7. Pada bagian terakhir ini, praktikan diminta untuk melengkapi atau membuat file Makefile yang bertugas meng-compile seluruh komponen dari sistem operasi EorzeOS secara otomatis menggunakan perintah make.
+   dimana Makefile adalah file konfigurasi yang digunakan oleh tool make untuk mengotomatisasi proses kompilasi program. Di sini, praktikan diminta membuat sistem build yang menyusun seluruh bagian sistem          operasi ke dalam satu file image (floppy.img).
+   
+   
+
+
 
 
 
