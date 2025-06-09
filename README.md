@@ -186,6 +186,14 @@ https://github.com/user-attachments/assets/1cfa66b1-b2f5-4e3e-a4b2-ec8b012f6fbb
 
 
 📜 Deskripsi Umum
-EorzeOS adalah sistem operasi interaktif yang dirancang untuk dunia fantasi bernama Eorzea, yang memungkinkan pengguna (main character) berkomunikasi dengan terminal melalui kekuatan khusus "The Echo". Shell dari OS ini memiliki perilaku unik yang merefleksikan perintah dan memberikan efek visual sesuai konteks dunia.
+EorzeOS adalah sistem operasi mini berbasis shell interaktif yang dirancang untuk dunia fiksi Eorzea. Sistem ini dibuat untuk memfasilitasi komunikasi dengan kekuatan “The Echo” dan berbagai interaksi lainnya seperti perintah warna dari Grand Company, kalkulator aritmatika, serta perubahan identitas pengguna. EorzeOS di-compile dan dijalankan pada image floppy disk sebesar 1.44MB, yang disusun dengan assembler dan C serta Makefile otomatis.
+
+
+1. Jika input bukan command valid, shell akan mencetak ulang string input. 
+2. untuk no 2 ini 
+    - user <username>: Mengubah nama shell prompt.
+    - user: Mengembalikan ke "user".
+3.
+
 
 
