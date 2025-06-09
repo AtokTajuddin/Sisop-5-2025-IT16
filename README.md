@@ -190,10 +190,56 @@ EorzeOS adalah sistem operasi mini berbasis shell interaktif yang dirancang untu
 
 
 1. Jika input bukan command valid, shell akan mencetak ulang string input. 
-2. untuk no 2 ini 
+2. Praktikan diminta membuat fitur percakapan dua arah yang sederhana, seperti chatbot. Shell akan mengenali dua kata kunci:
+   - Jika user mengetik yo, maka shell harus membalas dengan gurt
+   - Jika user mengetik gurt, maka shell membalas yo
+   Ini adalah mekanisme toggle antara dua kata.
+3. untuk no 3 praktikan diminta untuk membuat sebuah command yang memungkinkan pengguna untuk mengubah nama user pada shell yang digunakan:
     - user <username>: Mengubah nama shell prompt.
     - user: Mengembalikan ke "user".
-3.
+4. Pada bagian ini praktikan ditugaskan untuk mengimplementasikan fitur perintah grandcompany dalam shell EorzeOS dengan tujuan membuat command handler dalam shell.c agar ketika user mengetik
+   - grandcompany maelstrom
+   - grandcompany twinadder
+   - grandcompany immortalflames
+
+   maka shell akan: 
+   - Clear layar terminal.
+   - Mengubah warna teks berikutnya.
+   - Mengubah prompt nama shell menjadi sesuai nama Grand Company:
+     @Storm untuk Maelstrom
+     @Serpent untuk Twin Adder
+     @Flame untuk Immortal Flames
+
+   Jika user mengetik:
+   - grandcompany (tanpa argumen) atau
+   - grandcompany <random> (bukan 3 nama valid)
+   Maka shell harus mencetak error message.
+
+5. Pada bagian ini, praktikan diminta untuk mengimplementasikan fitur kalkulator sederhana di dalam shell buatan sendiri (EorzeOS), yang bisa digunakan untuk melakukan operasi aritmatika dasar melalui command      input. Praktikan harus membuat shell mengenali 4 jenis perintah berikut:
+   | Perintah      | Fungsi                      |
+   | ------------- | --------------------------- |
+   | `add <x> <y>` | Menjumlahkan dua bilangan   |
+   | `sub <x> <y>` | Mengurangkan `x` dengan `y` |
+   | `mul <x> <y>` | Mengalikan dua bilangan     |
+   | `div <x> <y>` | Membagi `x` dengan `y`      |
+   
+   Shell akan menerima input dalam bentuk string seperti "add 4 2" lalu:
+   - Parse input tersebut
+   - Ambil nilai x dan y (harus dikonversi dari string ke integer)
+   - Lakukan operasi sesuai command
+   - Hasilnya akan ditampilkan
+  
+
+
+
+6. Pada bagian ini, praktikan diminta untuk mengimplementasikan command spesial yogurt yang akan menghasilkan respon acak dari karakter bernama gurt di dalam shell EorzeOS. Tujuannya adalah agar saat pengguna      mengetikkan yogurt, maka karakter bernama gurt akan membalas dengan salah satu dari tiga kemungkinan respon yang dipilih secara acak.
+
+
+
+
+
+
+
 
 
 
