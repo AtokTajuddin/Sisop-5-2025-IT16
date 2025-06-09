@@ -29,7 +29,7 @@
 
 Jika input bukan command valid, shell akan mencetak ulang string input. 
 
-![1, 2, 3](assets/5.2.png)
+![1, 2, 3](assets/1.png)
 
 ## Soal 2
 
@@ -38,13 +38,16 @@ Jika input bukan command valid, shell akan mencetak ulang string input.
    - Jika user mengetik gurt, maka shell membalas yo
    Ini adalah mekanisme toggle antara dua kata.
 
+![1, 2, 3](assets/2.png)
 
 ## Soal 3
 
 untuk no 3 praktikan diminta untuk membuat sebuah command yang memungkinkan pengguna untuk mengubah nama user pada shell yang digunakan:
     - user <username>: Mengubah nama shell prompt.
     - user: Mengembalikan ke "user".
-    
+
+![1, 2, 3](assets/3.png)
+
 ## Soal 4
 
 Pada bagian ini praktikan ditugaskan untuk mengimplementasikan fitur perintah grandcompany dalam shell EorzeOS dengan tujuan membuat command handler dalam shell.c agar ketika user mengetik
