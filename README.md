@@ -184,4 +184,8 @@ https://github.com/user-attachments/assets/1cfa66b1-b2f5-4e3e-a4b2-ec8b012f6fbb
 
 ## Laporan
 
-> Isi sesuai pengerjaan.
+
+📜 Deskripsi Umum
+EorzeOS adalah sistem operasi interaktif yang dirancang untuk dunia fantasi bernama Eorzea, yang memungkinkan pengguna (main character) berkomunikasi dengan terminal melalui kekuatan khusus "The Echo". Shell dari OS ini memiliki perilaku unik yang merefleksikan perintah dan memberikan efek visual sesuai konteks dunia.
+
+
