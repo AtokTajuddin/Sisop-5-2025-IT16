@@ -114,11 +114,41 @@ dimana Makefile adalah file konfigurasi yang digunakan oleh tool make untuk meng
 Pada suatu hari, anda merasa sangat lelah dari segala macam praktikum yang sudah ada, sehingga anda berencana untuk tidur yang nyenyak di sebuah jam 3:34AM yang cerah. Tetapi, anda terbangun di dalam dunia berbeda yang bernama "Eorzea". Ada sesuatu yang mengganggu pikiran anda sehingga anda diharuskan membuat sebuah operating system bernama "EorzeOS" untuk mendampingi diri anda dalam dunia ini.
 
 
+```Makefile
+.PHONY: prepare bootloader stdlib shell kernel link build
+
+build: prepare bootloader stdlib shell kernel link
+
+prepare:
+	dd if=/dev/zero of=bin/floppy.img bs=512 count=2880
+
+bootloader:
+	nasm -f bin src/bootloader.asm -o bin/bootloader.bin
+
+stdlib:
+	bcc -ansi -c -o bin/std_lib.o src/std_lib.c -Iinclude
+
+shell:
+	bcc -ansi -c -o bin/shell.o src/shell.c -Iinclude
+
+kernel:
+	bcc -ansi -c -o bin/kernel.o src/kernel.c -Iinclude
+	nasm -f as86 src/kernel.asm -o bin/kernel_asm.o
+
+link:
+	ld86 -o bin/kernel.bin -d bin/kernel.o bin/kernel_asm.o bin/std_lib.o bin/shell.o
+	dd if=bin/bootloader.bin of=bin/floppy.img bs=512 count=1 conv=notrunc
+	dd if=bin/kernel.bin of=bin/floppy.img bs=512 seek=1 conv=notrunc
 ```
 
-rty
-```
-   
+
+prepare: Membuat file kosong bin/floppy.img seukuran disket 1.44 MB.
+bootloader, kernel, stdlib, shell: Meng-compile semua kode sumber (.c dan .asm) menjadi file-file objek perantara (.o dan .bin) menggunakan compiler bcc dan nasm.
+link:
+Menggabungkan semua file objek (.o) menjadi satu file kernel utuh bernama kernel.bin.
+Menyalin bootloader.bin ke awal dari floppy.img.
+Menyalin kernel.bin ke floppy.img tepat setelah bootloader.
+Hasil akhirnya adalah sebuah file bin/floppy.img yang siap dijalankan sebagai sistem operasi di emulator seperti QEMU.
 
 
 
